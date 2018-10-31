@@ -1,12 +1,17 @@
-###  ImgBanner
-    兼容性好的图片轮播，可点击切换图片
-### 效果展示
-![效果](https://github.com/taohuaer/ImgBanner/blob/master/ingbanner.gif)
-### 使用说明
-1.下载源码
-2.添加html结构
-```
-  <div class="bannerbox clearfix">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../../../reset.css">
+    <title>相册轮播</title>
+</head>
+
+<body>
+    <div class="bannerbox clearfix">
         <div class="bigimg">
             <img src="" alt="">
         </div>
@@ -41,24 +46,14 @@
             <a href="javascript:;" id="next" class="arrow">&gt;</a>
         </div>
     </div>
-```
-3.引入css和js
-```css
- <link rel="stylesheet" href="index.css">
+</body>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"></script>
 <script src="index.js"></script>
-```
-4.初始化插件
-```js
+<script>
     $(".bannerbox").ImgBanner({
         autoPlay: true,
         Time: 1000,
     });
-```
-### 参数设置
-### 浏览器兼容性
-```
-    谷歌
-    ie
-    火狐
-```
+</script>
+
+</html>

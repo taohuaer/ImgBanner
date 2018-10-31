@@ -1,0 +1,76 @@
+.bannerbox {
+  margin: 30px auto 0;
+  width: 464px;
+}
+.bannerbox .bigimg {
+  width: 464px;
+  height: 366px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.bannerbox .bigimg img {
+  width: 100%;
+  height: 100%;
+}
+.bannerbox .left-slide {
+  position: relative;
+  width: 464px;
+  height: 77px;
+  overflow: hidden;
+}
+.bannerbox .left-slide .arrow {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 77px;
+  background: #333;
+  display: inline-block;
+  line-height: 75px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-top: -39px;
+}
+.bannerbox .left-slide #prev {
+  left: 0;
+}
+.bannerbox .left-slide #next {
+  right: 0;
+}
+.bannerbox .left-slide .bd {
+  height: 77px;
+}
+.bannerbox .left-slide .bd ul {
+  margin-left: 32px;
+  height: 100%;
+  position: absolute;
+}
+.bannerbox .left-slide .bd ul li {
+  float: left;
+  width: 100px;
+  height: 77px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.bannerbox .left-slide .bd ul li img.on {
+  border: 1px solid red;
+}
+.bannerbox .left-slide .bd ul li img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.bannerbox .left-slide .hd {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bannerbox .left-slide .hd ul .on {
+  background: red;
+}
+.bannerbox .left-slide .hd ul li {
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  float: left;
+}
